@@ -6,7 +6,7 @@
 
 .wrapper{
     position: relative;
-    height: 100vh;
+    height: 100%;
     background-color: #0F0E17;
     color: white;
 }
