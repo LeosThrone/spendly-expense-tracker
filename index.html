@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="flex">
+        <div class="navCont flex">
+          <div class="logo">spendly.</div>
+
+          <div class="month">June 2026</div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="headingCont flex">
+          <div class="heading">
+            Your <span>expenses,</span><br />under control.
+          </div>
+
+          <div class="totalCont flex column">
+            <div class="totalTitle">TOTAL SPENT</div>
+            <div class="total">₹0.00</div>
+          </div>
+        </section>
+
+        <section class="expensesboxes flex">
+          <div class="enteriesCont flex column">
+            <div class="smallTxt">ENTERIES</div>
+            <div class="mainTxt entry">1</div>
+          </div>
+
+          <div class="enteriesCont flex column">
+            <div class="smallTxt">HIGHEST</div>
+            <div class="mainTxt orange high">20000</div>
+          </div>
+          <div class="enteriesCont flex column">
+            <div class="smallTxt">LATEST</div>
+            <div class="mainTxt red latest">20000</div>
+          </div>
+        </section>
+
+        <section class="inputWrapper flex column">
+            <div class="smallTxt">ADD NEW EXPENCE</div>
+          <div class="inputBox flex">
+            <div class="inputCont flex column">
+              <div class="smallTxt">NAME</div>
+              <input id="enterName" type="text" />
+            </div>
+            <div class="inputCont flex column">
+              <div class="smallTxt">AMOUNT(₹)</div>
+              <input id="enterAmount" type="number" />
+            </div>
+
+            <div id="addBtn"> + Add</div>
+          </div>
+        </section>
+
+        <section class="allExp flex column">
+            <div class="allExpHead flex">
+                <span class="smallTxt">ALL EXPENSES</span>
+                <div class="items">
+                    <span class="number">1</span>
+                    <span>ITEMS</span>
+                </div>
+            </div>
+
+            <div class="expBOX flex column">
+              <div class="item flex">
+                <div class="name">Fees</div>
+                <div class="amount">
+                  ₹20000
+                </div>
+              </div>
+            </div>
+        </section>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

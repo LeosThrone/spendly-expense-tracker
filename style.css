@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper{
+    position: relative;
+    height: 100vh;
+    background-color: #0F0E17;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.logo{
+    color: #ff8800;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.month{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.315);
+}
+
+.navCont{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.082);
+}
+
+.headingCont{
+    justify-content: space-between;
+    padding: 50px 50px 0px 50px;
+    align-items: center;
+}
+
+.heading > span{
+    color: #ff8800;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.totalCont{
+    justify-content: center;
+    align-items: end;
+}
+
+.totalTitle{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.315);
+}
+
+.total{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.expensesboxes{
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.enteriesCont{
+    padding: 30px 50px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    gap: 10px;
+    width: 200px;
+    background-color: #181720;
+
+}
+
+.smallTxt{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.315);
+}
+
+.mainTxt{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.inputWrapper{
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    margin: 0px 50px;
+    border-radius: 10px;
+    background-color: #181720;
+    gap: 20px;
+}
+.inputBox{
+    justify-content: space-between;
+    align-items: end;
+}
+
+#addBtn{
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.inputCont{
+    gap: 10px;
+}
+
+.allExp{
+    padding: 20px;
+    border: 1px solid  rgba(255, 255, 255, 0.11);
+    margin: 50px;
+    border-radius: 10px;
+    width: 100;
+    background-color: #181720;
+    gap: 20px;
+
+}
+
+.allExpHead{
+    width: 100;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items{
+    background-color: #ff88002d;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 999px;
+    color: #ff8800;
+    font-weight: 500;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #525252;
+    color: white;
+}
+
+.orange
+{
+    color: #ff8800;
+}
+
+.red{
+     color: #ec4548;
+}
+
+.expBOX{
+    height: 150px;
+    width: 100%;
+}
+.item{
+    width: 100;
+    background: #eba69115;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.name{
+    width: 50%;
+}
+.amount{
+    width: 50%;
+}
